@@ -6,7 +6,7 @@
 
 ## **爬取结果实例图**
 
-<img src=''></img>
+<img src='https://github.com/ilyydy/Ajax-todo/blob/master/screenshots/Ajax-todo.gif?raw=true'></img>
 
 
 ## **Dependencies**  
