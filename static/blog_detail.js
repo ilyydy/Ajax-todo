@@ -22,7 +22,7 @@ var apiBlogCommentDelete = function(id, callback) {
 
 var blogTemplate = function(blog) {
     var title = blog.title
-    var content = blog.content
+    var content = marked(blog.content)
     var author = blog.author
     var id = blog.id
     //var w_user_id = weibo.user_id
@@ -39,7 +39,7 @@ var blogTemplate = function(blog) {
 }
 
 var blogCommentTemplate = function(blogComment) {
-    var bc_content = blogComment.content
+    var bc_content = marked(blogComment.content)
     var bc_id = blogComment.id
     //var c_user_id = comment.user_id
     var t = `
