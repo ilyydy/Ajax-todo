@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>博客内容</title>
+</head>
+<body>
+    <div class="center-block block blog-list"></div>
+    <br>
+    <div id="blogComment-list" class="center-block block"></div>
+    <br>
+    <div class="center-block block pure-form">
+        <textarea id="id-input-blogComment-content" name="blogComment-content" placeholder="评论"></textarea>
+        <br>
+        <button id="id-button-blogComment-add" class="pure-button pure-button-primary">发表评论</button>
+    </div>
+    <link href="https://cdn.bootcss.com/pure/1.0.0/pure-min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='markdown.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='utilize.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='blog.css') }}" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/marked/0.3.6/marked.min.js"></script>
+    <script src='{{ url_for('static', filename='utilize.js') }}'></script>
+    <script src='{{ url_for('static', filename='blog_detail.js') }}'></script>
+</body>
+
+</html>

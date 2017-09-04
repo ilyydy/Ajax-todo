@@ -1,0 +1,11 @@
+__pycache__
+
+*/pycache__
+
+*.pyc
+
+*.DS_Store
+
+conf.py
+
+dev.md

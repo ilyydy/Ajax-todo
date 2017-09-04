@@ -1,0 +1,31 @@
+#id-input-content {
+    width: 500px;
+    display: block;
+    height: 600px;
+}
+
+#id-input-title {
+    width: 500px;
+    display: block;
+}
+
+#id-button-add {
+    width: 500px;
+    display: block;
+}
+
+ #id-input-author {
+     width: 200px;
+     display: block;
+ }
+
+#id-input-comment-content {
+    width: 500px;
+    display: block;
+    height: 100px;
+}
+
+#id-button-comment-add {
+    width: 500px;
+    display: block;
+}

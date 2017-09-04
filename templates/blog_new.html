@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>新建博客</title>
+</head>
+<body>
+        <form class="center-block block pure-form" action="{{ url_for('blog_api.add') }}" method="POST">
+            <input id="id-input-title" name="title" placeholder="标题">
+            <input id="id-input-author" name="author" placeholder="作者">
+            <textarea id="id-input-content" name="content" placeholder="正文"></textarea>
+            <button id="id-button-add" class="pure-button pure-button-primary">发表博客</button>
+        </form>
+</body>
+    <link href="https://cdn.bootcss.com/pure/1.0.0/pure-min.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='utilize.css') }}" rel="stylesheet">
+    <link href="{{ url_for('static', filename='blog.css') }}" rel="stylesheet">
+</html>
